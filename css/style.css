@@ -8,7 +8,23 @@
     margin: 20px auto;
     background-color: #fff;
     
+    
+}
 
+
+footer{
+    margin-top:70px;
+    margin-bottom: 50px;
+    text-align: center;
+    color:rgb(172, 171, 171);
+    width: 100%;
+}
+
+.title-system{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(116, 116, 116);
 }
 header{
     background-color: rgb(241, 241, 241);
@@ -26,6 +42,13 @@ input{
     outline: none;
     border:1px solid rgb(212, 212, 212);
 }
+.input-select{
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    outline: none;
+    border:1px solid rgb(212, 212, 212);
+}
 .btn-primary{
     
     border: 1px solid rgb(95, 236, 130);
@@ -35,12 +58,12 @@ input{
     border-radius: 5px;
     outline: none;
     margin-left: 5px;
-   
+    
 }
 .btn-primary:hover{
     background-color:rgb(35, 167, 68);
     color:#fff ;
-   
+    
 }
 
 .itens-cto{
@@ -56,19 +79,19 @@ input{
     height: 170px;
     
     margin-left: 10px;
-    margin-top: 25px;
+    margin-top: 50px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 .item-content{
     background-color: rgb(241, 241, 241);
     width: 167px;
-    height: 150px;
+    height: 160px;
     margin:0 auto;
     border-radius: 7px;
 }
 .text-item{
-    padding: 10px;
+    padding-top: 10px;
     color: rgb(151, 151, 151);
 }
 .text-parametros{
@@ -79,10 +102,23 @@ input{
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 5px;
-
+    
 }
 .props-item{
+    margin-top: 10px;
     display: flex;
     
+    
+}
+
+.result{
+    color: green;
+}
+
+.container{
+    box-sizing: border-box;
+}
+
+@media (max-width: 899px){
     
 }
